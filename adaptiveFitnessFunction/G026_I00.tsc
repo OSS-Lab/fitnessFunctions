@@ -1,0 +1,124 @@
+HISTORY(10):
+POINT MUTATION (GLOBAL) 9 bits in genes G0482,3,G0719,3,G0964,3
+name refreshed to G022_I00
+POINT MUTATION (GLOBAL) 6 bits in genes G0241,4,G0482,1,G0964,1
+name refreshed to G023_I00
+POINT MUTATION (GLOBAL) 12 bits in genes G0241,6,G0482,2,G0964,4
+name refreshed to G024_I00
+POINT MUTATION (GLOBAL) 11 bits in genes G0241,3,G0482,3,G0964,5
+name refreshed to G025_I00
+POINT MUTATION (GLOBAL) 8 bits in genes G0241,4,G0964,4
+name refreshed to G026_I00
+
+name => G0000
+PRE_JUNK => 0011101010001001000010110100000001100100000111111111100001011101010010000011001011010111000010110100010000101011110110000100110001100001001010100001000000000000000100000000110000000111110011011100011010000100000000000000000100000110011110000
+genes => 
+  name => G0241
+  START_CODE => 01111110
+  regulated_concentration => 1001000101
+  UNUSED => 1001
+  domains => 
+    name => D0263
+    allosteric_flag => 0
+    RT_transition_rate => 0000000100
+    TR_transition_rate => 1000001010
+    RT_phi => 1001111110
+    UNUSED => 1000
+    protodomains => 
+      name => PD0298
+      type => 00
+      substrate_polarity => 1
+      binding_profile => 11010110100111101011
+      kf_profile => 11011111010111010111
+      kb_profile => 10101010101010001000
+      kp_profile => 0000001111
+      Keq_ratio => 1000000001
+      kf_polarity_mask => 00000100101000000000
+      kb_polarity_mask => 00000001000001100100
+      kf_conformation_mask => 11111000111111100110
+      kb_conformation_mask => 00100100100100010010
+      kp_conformation_mask => 0001000001
+      UNUSED => 0101
+  STOP_CODE => 101
+genes_linker => 0000
+genes => 
+  name => G0482
+  START_CODE => 01111110
+  regulated_concentration => 1000100000
+  UNUSED => 0010
+  domains => 
+    name => D0504
+    allosteric_flag => 0
+    RT_transition_rate => 1010000001
+    TR_transition_rate => 1000010000
+    RT_phi => 1111110111
+    UNUSED => 0001
+    protodomains => 
+      name => PD0539
+      type => 10
+      substrate_polarity => 0
+      binding_profile => 11100100100010111001
+      kf_profile => 11010111100011110010
+      kb_profile => 01101000101101011000
+      kp_profile => 0110000011
+      Keq_ratio => 1000011000
+      kf_polarity_mask => 00011010001010000000
+      kb_polarity_mask => 00010000000011100001
+      kf_conformation_mask => 01011110111110000110
+      kb_conformation_mask => 00001100010000101000
+      kp_conformation_mask => 0010011000
+      UNUSED => 1010
+  STOP_CODE => 011
+genes_linker => 01110110100101000110000100010000000000000000111111110100010110100100000011101001110111010110110000001110101000101000100001000111101110000000010001000100001100100000001100100100000011110100100011000110001001011001000100100000000100010011000010000
+genes => 
+  name => G0964
+  START_CODE => 01111110
+  regulated_concentration => 1001110001
+  UNUSED => 1000
+  domains => 
+    name => D0986
+    allosteric_flag => 0
+    RT_transition_rate => 0000000110
+    TR_transition_rate => 1000001100
+    RT_phi => 0011001010
+    UNUSED => 0010
+    protodomains => 
+      name => PD1021
+      type => 00
+      substrate_polarity => 0
+      binding_profile => 11010110000011101011
+      kf_profile => 11010111001001000100
+      kb_profile => 11101110101010001000
+      kp_profile => 0100010111
+      Keq_ratio => 1000000000
+      kf_polarity_mask => 10010101001001000000
+      kb_polarity_mask => 01010101010001100000
+      kf_conformation_mask => 11111000111111000110
+      kb_conformation_mask => 10001010100100010110
+      kp_conformation_mask => 0001000001
+      UNUSED => 0100
+  domains_linker => 001
+  domains => 
+    name => D1201
+    allosteric_flag => 0
+    RT_transition_rate => 0000101000
+    TR_transition_rate => 1000000001
+    RT_phi => 0111111101
+    UNUSED => 1000
+    protodomains => 
+      name => PD1236
+      type => 10
+      substrate_polarity => 1
+      binding_profile => 10100100000101111001
+      kf_profile => 11010111011011100000
+      kb_profile => 11101110101010001000
+      kp_profile => 0100111111
+      Keq_ratio => 1000000100
+      kf_polarity_mask => 00000100000000100001
+      kb_polarity_mask => 00000010000001000000
+      kf_conformation_mask => 01111100110101000110
+      kb_conformation_mask => 10000101101110010010
+      kp_conformation_mask => 0000000100
+      UNUSED => 0100
+  STOP_CODE => 110
+POST_JUNK => 111
